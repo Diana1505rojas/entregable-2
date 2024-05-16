@@ -3,7 +3,7 @@ import pydicom
 import matplotlib.pyplot as plt
 
 # Directorio de imágenes DICOM
-directorio_dicom = "C:/Users/mateo/OneDrive/Escritorio/entregable 2/imagenes"
+directorio_dicom = r"C:\Users\Sofia Rojas\Desktop\entregable2\imagenes"
 
 # Lista para almacenar los datos de las imágenes DICOM
 imagenes_dicom = []

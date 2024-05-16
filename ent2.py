@@ -3,7 +3,7 @@ import cv2 as cv
 import numpy as np
 import matplotlib.pyplot as plt
 
-celula = r"C:\Users\Sofia Rojas\Desktop\entregable 2\celula.jpg"
+celula = r"C:\Users\Sofia Rojas\Desktop\entregable2\celula.jpg"
 imagen = cv2.imread(celula)
 gris = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)
 ub,img=cv.threshold(gris,0, 255, cv.THRESH_BINARY + cv.THRESH_OTSU)
