@@ -13,8 +13,6 @@ erosion = cv.erode(dilatada,kernel,iterations = 9)
 
 
 total,mask = cv.connectedComponents(erosion)
-def contarcel(contornos):
-    total=len(contornos)
 print("Número de células encontradas:", total)
 
 
